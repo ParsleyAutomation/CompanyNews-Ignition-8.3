@@ -28,7 +28,7 @@ First public release.
   lives outside the data directory by design.
 - **Offline licensing** — signed, gateway-bound keys validated on the gateway itself. No activation
   server, no phone-home, no telemetry; works on air-gapped networks. Unlicensed gateways play the
-  first 2 slides of the library **in total** — not 2 per department — plus a Central Valley Ignition
+  first 2 slides of the library **in total** — not 2 per department — plus a Parsley Automation
   slide. Nothing is deleted, and an expired key never blanks a screen.
 - **Redundancy aware** — the backup half of a redundant pair refuses content edits, because nothing
   is replicated between nodes and an edit made there would be lost at the next failover. Reads and

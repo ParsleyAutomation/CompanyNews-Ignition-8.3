@@ -30,7 +30,7 @@ Nothing else. No database, no internet connection, no cloud account.
 1. In the Gateway web interface, go to **Config → Modules**.
 2. Scroll to the bottom and choose **Install or Upgrade a Module**.
 3. Select `CompanyNews-<version>.modl` and install it.
-4. Accept the module certificate if prompted. CompanyNews is signed by Central Valley Ignition.
+4. Accept the module certificate if prompted. CompanyNews is signed by Parsley Automation.
 
 **Restart the gateway.** Ignition 8.3 requires it for any module install or upgrade; the module
 will not run until you do.
@@ -49,7 +49,7 @@ You should get a small block of JSON. `mediaWritable` must be `true`; if it is `
 ## 3. Add the two components to a project
 
 CompanyNews ships two Perspective components. In the Designer they appear in the component palette
-under **Central Valley Ignition**.
+under **Parsley Automation**.
 
 | Component | Where it goes |
 |---|---|
@@ -249,7 +249,7 @@ the Gateway web interface. That page requires a gateway login, so whoever manage
 change the license or download the whole library.
 
 **Without a license key** CompanyNews plays the first **2 slides of your library in total** — not 2
-per department — followed by a Central Valley Ignition notice slide. A department whose slides are
+per department — followed by a Parsley Automation notice slide. A department whose slides are
 not among those first 2 shows only that notice. Nothing is deleted and nothing stops working: every
 slide you have configured starts playing again the moment a key is entered.
 
@@ -257,14 +257,14 @@ slide you have configured starts playing again the moment a key is entered.
 
 1. Open **Config → Services → CompanyNews**.
 2. Copy the **Gateway ID** shown there.
-3. Send it to Central Valley Ignition with your order.
+3. Send it to Parsley Automation with your order.
 4. Paste the key you receive into the License field and click **Activate**.
 
 It takes effect immediately — no restart.
 
 **How licensing works**
 
-- Keys are validated **entirely offline**. The module never contacts CVI or any other server, and
+- Keys are validated **entirely offline**. The module never contacts Parsley Automation or any other server, and
   sends no telemetry. It works on air-gapped networks.
 - A key is bound to one gateway installation. Moving to a different gateway needs a new key.
 - A key may carry an expiry date. When it expires the module drops back to unlicensed behaviour
@@ -290,7 +290,7 @@ every slide to match.
 |---|---|
 | Screen is blank | Check the view's `screenKey` matches a department that has enabled slides. A slide outside its schedule window is skipped. |
 | "View Not Found" on the TV | The URL uses a view path instead of a page path. Add a page in Perspective > Page Configuration and use that. See section 4. |
-| Only 2 slides play, then a CVI slide | The gateway is unlicensed. The cap is 2 slides **in total**, not per department, so some departments may show only the CVI slide. See [Licensing](#9-licensing). |
+| Only 2 slides play, then a notice slide | The gateway is unlicensed. The cap is 2 slides **in total**, not per department, so some departments may show only the notice slide. See [Licensing](#9-licensing). |
 | No License tab in the editor | Correct — licensing moved to **Config → Services → CompanyNews**, behind a gateway login. |
 | Upload fails | Check `mediaWritable` at `/data/cvi-companynews/status`. Files over 15 MB are refused, as are SVGs. |
 | Emergency slide never fires | The editor's trigger status line says why. The usual causes are a tag path that resolves to nothing, or a tag whose quality is bad — bad quality deliberately counts as not firing. |
@@ -319,6 +319,6 @@ nodes.** Each gateway keeps its own slide library and its own images.
 
 ## Support
 
-Central Valley Ignition — Support@CentralValleyIgnition.com
+Parsley Automation — Support@parsleyautomation.com
 
 Include your Gateway ID (License tab) and the module version (Config → Modules).

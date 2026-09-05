@@ -3,7 +3,7 @@
 Digital signage for Ignition 8.3. Put news, safety counters and shift information on the TVs around
 your plant, and manage it from inside Perspective.
 
-Made by [Central Valley Ignition](https://www.centralvalleyignition.com).
+Made by [Parsley Automation](https://www.parsleyautomation.com).
 
 ![A slide playing, with the corner clock and the department ticker along the bottom](docs/images/slideshow.png)
 
@@ -56,8 +56,8 @@ table — is in [docs/INSTALL.md](docs/INSTALL.md).
 ## Licensing
 
 Without a key the gateway plays the first **2 slides of your library, in total** — not 2 per
-department — and then a Central Valley Ignition slide. If those first 2 slides all belong to one
-department, the other departments will only see the CVI slide. That's what the limit means.
+department — and then a Parsley Automation slide. If those first 2 slides all belong to one
+department, the other departments will only see the notice slide. That's what the limit means.
 
 Nothing gets deleted and nothing stops serving. Every held slide starts playing again the moment a
 key goes in.
@@ -93,7 +93,7 @@ Full terms are in [LICENSE.txt](LICENSE.txt), section 0.
 
 ## Support
 
-[Support@CentralValleyIgnition.com](mailto:Support@CentralValleyIgnition.com)
+[Support@parsleyautomation.com](mailto:Support@parsleyautomation.com)
 
 Include your Gateway ID from **Config → Services → CompanyNews** and the module version from
 **Config → Modules**.

@@ -1,7 +1,7 @@
 CompanyNews
 End User License Agreement
 
-Central Valley Ignition
+Parsley Automation
 Version 1.0
 Effective 2026-08-19
 
@@ -40,8 +40,8 @@ person is instructed to rely on the Software for safety-critical warnings.
 1. AGREEMENT
 -------------------------------------------------------------------------------
 
-This End User License Agreement ("Agreement") is between Central Valley Ignition
-("CVI", "we", "us") and the individual or entity that installs or uses the
+This End User License Agreement ("Agreement") is between Parsley Automation
+("PA", "we", "us") and the individual or entity that installs or uses the
 CompanyNews module for Inductive Automation's Ignition platform, together with
 its documentation and any updates ("Software") ("you", "Licensee").
 
@@ -53,24 +53,24 @@ it from any gateway on which it is installed.
 2. LICENSE GRANT
 -------------------------------------------------------------------------------
 
-2.1 Grant. Subject to this Agreement and to payment of the applicable fees, CVI
+2.1 Grant. Subject to this Agreement and to payment of the applicable fees, PA
 grants you a non-exclusive, non-transferable, non-sublicensable license to
 install and use the Software on the Ignition gateway installation(s) identified
 by the license key(s) issued to you, for your internal business purposes.
 
 2.2 Per-gateway scope. A license key is issued against a specific gateway
-installation identifier, or is issued as a multi-gateway key where CVI has
+installation identifier, or is issued as a multi-gateway key where PA has
 expressly agreed to that. A key issued for one gateway installation does not
 license any other gateway installation.
 
 2.3 Unlicensed use. The Software runs without a license key at reduced capacity
-and displays a CVI notice slide. Unlicensed use is permitted for evaluation and
+and displays a PA notice slide. Unlicensed use is permitted for evaluation and
 is subject to this Agreement in full, including the disclaimers and limitations
 below. Unlicensed use is not permitted as a permanent substitute for purchasing
 a license where the Software is used in production.
 
 2.4 Screens. A license does not limit the number of screens that display
-content from a licensed gateway, unless CVI states otherwise in writing.
+content from a licensed gateway, unless PA states otherwise in writing.
 
 -------------------------------------------------------------------------------
 3. RESTRICTIONS
@@ -101,10 +101,10 @@ You may not, and may not permit any third party to:
 4. OWNERSHIP
 -------------------------------------------------------------------------------
 
-The Software is licensed, not sold. CVI and its licensors retain all right,
+The Software is licensed, not sold. PA and its licensors retain all right,
 title, and interest in and to the Software, including all intellectual property
 rights. You retain all right, title, and interest in the content you upload,
-configure, or display through the Software. CVI claims no rights in that content
+configure, or display through the Software. PA claims no rights in that content
 and does not receive, transmit, or store it.
 
 -------------------------------------------------------------------------------
@@ -112,7 +112,7 @@ and does not receive, transmit, or store it.
 -------------------------------------------------------------------------------
 
 5.1 Offline by design. License keys are self-contained signed tokens. The
-Software validates a key locally on your gateway. It does not contact CVI or any
+Software validates a key locally on your gateway. It does not contact PA or any
 other server to activate, validate, or maintain a license, and it does not
 transmit telemetry, usage data, or your content anywhere.
 
@@ -128,7 +128,7 @@ content, and it does not delete anything you have configured.
 5.4 Gateway identifier. The Software generates a random identifier for the
 gateway installation on first run and stores it locally. It contains no personal
 information and is used solely to bind a key to an installation. You provide it
-to CVI when ordering.
+to PA when ordering.
 
 -------------------------------------------------------------------------------
 6. YOUR RESPONSIBILITIES
@@ -138,7 +138,7 @@ to CVI when ordering.
 without gateway authentication by design, so that the editor works inside a
 Perspective session. YOU ARE RESPONSIBLE FOR RESTRICTING ACCESS to the gateway
 and to the views that embed the Software's components, using Ignition project
-security and your own network controls. CVI is not responsible for content
+security and your own network controls. PA is not responsible for content
 placed on your screens by anyone able to reach your gateway.
 
 6.2 Content. You are responsible for everything displayed through the Software,
@@ -160,9 +160,9 @@ databases.
 7. SUPPORT AND UPDATES
 -------------------------------------------------------------------------------
 
-CVI may provide updates, fixes, and support at its discretion. Nothing in this
-Agreement obliges CVI to provide any update, fix, or support, or to maintain
-compatibility with any future version of Ignition, unless CVI has agreed
+PA may provide updates, fixes, and support at its discretion. Nothing in this
+Agreement obliges PA to provide any update, fix, or support, or to maintain
+compatibility with any future version of Ignition, unless PA has agreed
 otherwise in a separate written agreement. Updates provided to you are governed
 by this Agreement unless accompanied by different terms.
 
@@ -171,10 +171,10 @@ by this Agreement unless accompanied by different terms.
 -------------------------------------------------------------------------------
 
 THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY
-KIND. TO THE MAXIMUM EXTENT PERMITTED BY LAW, CVI DISCLAIMS ALL WARRANTIES,
+KIND. TO THE MAXIMUM EXTENT PERMITTED BY LAW, PA DISCLAIMS ALL WARRANTIES,
 EXPRESS, IMPLIED, OR STATUTORY, INCLUDING ANY IMPLIED WARRANTIES OF
 MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
-CVI DOES NOT WARRANT THAT THE SOFTWARE WILL BE UNINTERRUPTED, ERROR-FREE, OR
+PA DOES NOT WARRANT THAT THE SOFTWARE WILL BE UNINTERRUPTED, ERROR-FREE, OR
 THAT ANY PARTICULAR CONTENT WILL BE DISPLAYED ON ANY PARTICULAR SCREEN AT ANY
 PARTICULAR TIME.
 
@@ -187,14 +187,14 @@ the above may not apply to you.
 
 TO THE MAXIMUM EXTENT PERMITTED BY LAW:
 
-9.1 CVI WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL,
+9.1 PA WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL,
 EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR LOST PROFITS, LOST REVENUE, LOST DATA,
 BUSINESS INTERRUPTION, OR COST OF SUBSTITUTE GOODS OR SERVICES, ARISING OUT OF
 OR RELATED TO THE SOFTWARE, HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, EVEN
-IF CVI HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+IF PA HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
-9.2 CVI'S TOTAL AGGREGATE LIABILITY ARISING OUT OF OR RELATED TO THE SOFTWARE
-WILL NOT EXCEED THE AMOUNT YOU ACTUALLY PAID CVI FOR THE SOFTWARE IN THE TWELVE
+9.2 PA'S TOTAL AGGREGATE LIABILITY ARISING OUT OF OR RELATED TO THE SOFTWARE
+WILL NOT EXCEED THE AMOUNT YOU ACTUALLY PAID PA FOR THE SOFTWARE IN THE TWELVE
 (12) MONTHS PRECEDING THE EVENT GIVING RISE TO THE CLAIM.
 
 9.3 The limitations in this section apply regardless of whether a remedy fails
@@ -203,7 +203,7 @@ or excluded under applicable law, including liability for death or personal
 injury caused by negligence, or for fraud.
 
 9.4 You acknowledge that the fees for the Software reflect this allocation of
-risk, and that CVI would not license the Software on these terms without it.
+risk, and that PA would not license the Software on these terms without it.
 
 -------------------------------------------------------------------------------
 10. TERM AND TERMINATION
@@ -237,13 +237,13 @@ laws.
 in applicable US federal regulations, and is provided to US Government end users
 with only those rights granted to all other end users under this Agreement.
 
-11.4 Assignment. You may not assign this Agreement without CVI's prior written
+11.4 Assignment. You may not assign this Agreement without PA's prior written
 consent, except to a successor of your entire business, provided the assignee
 agrees to this Agreement in full.
 
 11.5 Entire agreement. This Agreement is the entire agreement between the
 parties about the Software and supersedes any prior or contemporaneous
-understanding. A separate written agreement signed by CVI prevails over this
+understanding. A separate written agreement signed by PA prevails over this
 Agreement to the extent of any conflict.
 
 11.6 Severability and waiver. If any provision is held unenforceable, it will be
@@ -256,7 +256,7 @@ remains in effect. A failure to enforce any provision is not a waiver of it.
 
 The Software runs on and integrates with Inductive Automation's Ignition
 platform, which is licensed separately by Inductive Automation and is not
-provided under this Agreement. CVI is not affiliated with or endorsed by
+provided under this Agreement. PA is not affiliated with or endorsed by
 Inductive Automation. "Ignition" and "Perspective" are trademarks of their
 respective owners.
 
@@ -266,5 +266,5 @@ The Software's browser components use React, licensed under the MIT License.
 CONTACT
 -------------------------------------------------------------------------------
 
-Central Valley Ignition
-Support@CentralValleyIgnition.com
+Parsley Automation
+Support@parsleyautomation.com
