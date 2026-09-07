@@ -38,7 +38,7 @@ will not run until you do.
 To confirm it is running, open:
 
 ```
-http://<your-gateway>:8088/data/cvi-companynews/status
+http://<your-gateway>:8088/data/pa-companynews/status
 ```
 
 You should get a small block of JSON. `mediaWritable` must be `true`; if it is `false`, see
@@ -53,8 +53,8 @@ under **Parsley Automation**.
 
 | Component | Where it goes |
 |---|---|
-| **News Slideshow** (`cvi.display.newsslideshow`) | A view that TVs open. One per screen layout. |
-| **News Editor** (`cvi.input.newseditor`) | A view your staff open to manage content. |
+| **News Slideshow** (`pa.display.newsslideshow`) | A view that TVs open. One per screen layout. |
+| **News Editor** (`pa.input.newseditor`) | A view your staff open to manage content. |
 
 ### The player view
 
@@ -212,7 +212,7 @@ The consequence matters:
 | What | Where |
 |---|---|
 | Slide library | `<Ignition data dir>/modules/companynews/slides.json` |
-| Images | The media root — shown at `/data/cvi-companynews/status` as `mediaRoot` |
+| Images | The media root — shown at `/data/pa-companynews/status` as `mediaRoot` |
 
 To change where images live, use the media root setting in the editor. It takes effect at the next
 gateway restart, and existing images are **not** moved — point it at a directory you have already
@@ -233,7 +233,7 @@ the editor for everyone.
 
 1. **The editor view.** Gate it with Ignition project security. Anyone who can open it controls
    every screen.
-2. **The network.** The routes under `/data/cvi-companynews/` are reachable by anything that can
+2. **The network.** The routes under `/data/pa-companynews/` are reachable by anything that can
    reach your gateway's web port. If your gateway is exposed beyond your plant network, restrict it
    with your firewall or reverse proxy.
 
@@ -292,7 +292,7 @@ every slide to match.
 | "View Not Found" on the TV | The URL uses a view path instead of a page path. Add a page in Perspective > Page Configuration and use that. See section 4. |
 | Only 2 slides play, then a notice slide | The gateway is unlicensed. The cap is 2 slides **in total**, not per department, so some departments may show only the notice slide. See [Licensing](#9-licensing). |
 | No License tab in the editor | Correct — licensing moved to **Config → Services → CompanyNews**, behind a gateway login. |
-| Upload fails | Check `mediaWritable` at `/data/cvi-companynews/status`. Files over 15 MB are refused, as are SVGs. |
+| Upload fails | Check `mediaWritable` at `/data/pa-companynews/status`. Files over 15 MB are refused, as are SVGs. |
 | Emergency slide never fires | The editor's trigger status line says why. The usual causes are a tag path that resolves to nothing, or a tag whose quality is bad — bad quality deliberately counts as not firing. |
 | Ticker shows `--` | That tag could not be read. The Ticker tab shows the live value and quality of every tag you reference. |
 | Screens show different slides | They are on different `screenKey`s, or one screen's clock is far off. Screens derive position from the wall clock. |

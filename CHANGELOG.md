@@ -2,6 +2,40 @@
 
 All notable changes to CompanyNews. Versions match what Config → Modules shows.
 
+## 1.0.0.75 — 2026-09-07
+
+Rebrand to Parsley Automation. Functionally identical to 1.0.0.71 — no feature or behaviour changes.
+
+### Breaking
+
+The module identifier and both component identifiers changed, because the company name is part of
+each one:
+
+| Was | Now |
+|---|---|
+| `com.centralvalleyignition.companynews.CompanyNews` | `com.parsleyautomation.companynews.CompanyNews` |
+| `cvi.display.newsslideshow` | `pa.display.newsslideshow` |
+| `cvi.input.newseditor` | `pa.input.newseditor` |
+| `/data/cvi-companynews/` | `/data/pa-companynews/` |
+
+Ignition treats this as a different module, so upgrading is not in place:
+
+1. Export your setup from the old version first — the slide library and images are not carried over
+   by anything else.
+2. Uninstall the old module in **Config → Modules**, then install this one.
+3. Re-place both components on your views. A view still referencing `cvi.display.newsslideshow`
+   renders nothing, because that component no longer exists.
+4. Import your setup, then re-enter your license key under **Config → Services → CompanyNews**.
+
+Keys issued for 1.0.0.x remain valid; they are bound to the gateway, not to the module identifier.
+
+### Changed
+
+- The unlicensed notice slide now reads **Parsley Automation** and points at
+  `www.parsleyautomation.com`.
+- The Perspective palette category is now **Parsley Automation**.
+- The bundled end user license agreement names Parsley Automation.
+
 ## 1.0.0 — 2026-08-19
 
 First public release.
